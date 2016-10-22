@@ -1,0 +1,17 @@
+﻿@model List<Interview.Models.RangeModel>
+@{ var manufacturerLogo = ViewBag.Manufacturer + ".png"; }
+<div class="brandLogo">
+    <img src="~/Content/Images/Manufacturers/@manufacturerLogo" style="margin: auto" />
+</div>
+<div class="brandName">
+    <h2>Cars in the @ViewBag.Manufacturer range</h2>
+</div>
+<div class="cars">
+@foreach (var carModel in Model)
+{
+    <span class="carHolder">
+        <span class="carTitle">@carModel.CarModelName</span>
+        <img src="~/Content/Images/Vehicles/@carModel.CarImageName" class="carImage" />
+    </span>
+}
+</div>

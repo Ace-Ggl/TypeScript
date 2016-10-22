@@ -1,0 +1,5 @@
+C:\Projects\Interview\Test\Interview\Interview.Database\bin\Debug\Interview.Database.dacpac
+C:\Projects\Interview\Test\Interview\Interview.Database\bin\Debug\Interview.Database.dll
+C:\Projects\Interview\Test\Interview\Interview.Database\bin\Debug\Interview.Database.pdb
+C:\Projects\Interview\Test\Interview\Interview.Database\obj\Debug\Interview.Database.dll
+C:\Projects\Interview\Test\Interview\Interview.Database\obj\Debug\Interview.Database.pdb
